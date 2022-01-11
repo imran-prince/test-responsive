@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up Form</title>
+    <script src="https://kit.fontawesome.com/a22033d253.js" crossorigin="anonymous"></script>
+    <Style>
+         *{
+             background-color:gray;
+         }
+        .container{
+            display: flex;
+            justify-content: center;
+        }
+        .sign-up{
+            display: flex;
+            flex-direction: column;
+            box-shadow: 10px 10px 10px rgb(150, 150, 216) ;
+            margin-top: 150px;
+        }
+         
+
+        
+        .sign-up input,button{
+            font-size: 1.3em;
+            margin-top: 10px;
+            padding-left: 10px;
+            color: white;
+            transform: scale(.90);
+        }
+        .sign-up button:hover{
+            background-color: violet;
+            transform: scale(1);
+             
+        }
+        .sign-up button{
+            background-color: darkgoldenrod;
+            color: white;
+            font-weight: 700;
+            /* width: 100px; */
+            /* margin-left: 90px; */
+            margin-top: 10px;
+            padding: 5px;
+            
+        }
+        nav a{
+            text-decoration:  none;
+            font-size: 1.3em;
+            margin-right: 10px;
+            color: black;
+            font-weight: 700;
+        }
+        nav a:hover{
+            color: tomato;
+            background-color: rgb(136, 161, 86);
+            padding: 7px;
+            border-radius: 10px;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+        }
+        .color{
+
+            color: rgb(42, 230, 120);
+        }
+        .color:hover{
+            color: sienna;
+        }
+    </Style>
+</head>
+<body>
+    <header>
+        <nav>
+            <span>
+                <a href="">Home</a>
+                <a href="">About</a>
+                <a href="">Contact</a>
+                <a href="">Support</a>
+                <a href="">Notifaction</a>  
+
+            </span>
+            <span  >
+                <a href=""><i class="far fa-user color"></i></a>  
+                <a href=""><i class="fas fa-sign-out-alt color"></i></a> 
+
+            </span>
+            
+             
+        </nav>
+    </header>
+    <section class="container">
+        <form action="" class="sign-up">
+            <h1>Login-form</h1>
+            <input type="email" name="email" id=""required placeholder="bubt@gmail.com">
+            <input type="password" name="password" id="" required placeholder="*********">
+            <button type="submit">Submit</button>
+        </form>
+
+    </section>
+</body>
+</html>
